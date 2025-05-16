@@ -1,0 +1,101 @@
+:root {
+    --green-color: #28948c;
+    --white-color: #fff;
+}
+td {
+    padding: 20px;
+}
+.switch,
+.radio,
+.checkbox {
+    position: relative;
+    display: inline-block;
+}
+.checkbox::before {
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    transition: all 0.25s ease-in-out;
+}
+.checkbox:has(input[type="checkbox"]:checked)::before {
+    border-color: transparent;
+    background-color: var(--green-color);
+    transition: all 0.25s ease-in-out;
+}
+.checkbox:has(input[type="checkbox"]:checked)::after {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 20px;
+    border: 2px solid;
+    border-color: transparent var(--white-color) var(--white-color) transparent;
+    transform: rotate(45deg);
+}
+.radio::before {
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 4px solid #ccc;
+    transition: all 0.25s ease-in-out;
+}
+.radio:has(input[type="checkbox"]:checked)::before {
+    border-color: var(--green-color);
+    background-color: var(--white-color);
+    transition: all 0.25s ease-in-out;
+}
+.radio:has(input[type="checkbox"]:checked)::after {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: var(--green-color);
+}
+.switch {
+    width: 60px;
+}
+.switch::before {
+    content: "";
+    display: inline-block;
+    height: 30px;
+
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.35);
+    border-radius: 20px;
+}
+.switch::after {
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    content: "";
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    transition: all 0.25s ease-in-out;
+    background-color: var(--white-color);
+    z-index: 2;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.switch:has(input[type="checkbox"]:checked)::before {
+    border-color: var(--green-color);
+    background-color: var(--green-color);
+    opacity: 0.6;
+    transition: all 0.25s ease-in-out;
+}
+.switch:has(input[type="checkbox"]:checked)::after {
+    transform: translateX(100%);
+    background-color: var(--green-color);
+}
