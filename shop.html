@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+            rel="stylesheet" />
+        <!-- CSS -->
+        <link rel="stylesheet" href="./css/reset.css" />
+        <link rel="stylesheet" href="./css/shop.css" />
+        <link rel="stylesheet" href="css/responsive.css" />
+        <!-- Icons -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+            integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer" />
+        <title>Shop</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="header__wrapper">
+                <div class="inner">
+                    <div class="container">
+                        <div class="hearder">
+                            <a href="#!" class="logo__btn">
+                                <img src="./img/logo.png" alt="Logo" class="logo" />
+                            </a>
+                            <nav class="menu__wrapper">
+                                <ul class="menu__list">
+                                    <li class="menu__item">
+                                        <a class="menu__link">Home</a>
+                                    </li>
+                                    <li class="menu__item">
+                                        <a class="menu__link">Courses</a>
+                                        <ul class="sub-menu">
+                                            <li class="menu__item">
+                                                <a>Courses Version One</a>
+                                            </li>
+                                            <li class="menu__item">
+                                                <a>Courses Version Two</a>
+                                            </li>
+                                            <li class="menu__item">
+                                                <a>Courses Version Three</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu__item">
+                                        <a class="menu__link">Events</a>
+                                        <ul class="sub-menu">
+                                            <li class="menu__item">
+                                                <a>Courses Version One</a>
+                                            </li>
+                                            <li class="menu__item">
+                                                <a>Courses Version Two</a>
+                                            </li>
+                                            <li class="menu__item">
+                                                <a>Courses Version Three</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu__item">
+                                        <a class="menu__link">Pages</a>
+                                        <ul class="sub-menu">
+                                            <li class="menu__item">
+                                                <a>Courses Version One</a>
+                                            </li>
+                                            <li class="menu__item">
+                                                <a>Courses Version Two</a>
+                                            </li>
+                                            <li class="menu__item">
+                                                <a>Courses Version Three</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu__item">
+                                        <a class="menu__link">Portfolio</a>
+                                        <ul class="sub-menu">
+                                            <li class="menu__item">
+                                                <a>Courses Version One</a>
+                                            </li>
+                                            <li class="menu__item">
+                                                <a>Courses Version Two</a>
+                                            </li>
+                                            <li class="menu__item">
+                                                <a>Courses Version Three</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu__item">
+                                        <a class="menu__link">Blog</a>
+                                        <ul class="sub-menu">
+                                            <li class="menu__item">
+                                                <a>Courses Version One</a>
+                                            </li>
+                                            <li class="menu__item">
+                                                <a>Courses Version Two</a>
+                                            </li>
+                                            <li class="menu__item">
+                                                <a>Courses Version Three</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu__item">
+                                        <a class="menu__link">Shop</a>
+                                        <ul class="sub-menu">
+                                            <li class="menu__item">
+                                                <a>Courses Version One</a>
+                                            </li>
+                                            <li class="menu__item">
+                                                <a>Courses Version Two</a>
+                                            </li>
+                                            <li class="menu__item">
+                                                <a>Courses Version Three</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu__item">
+                                        <a class="menu__link">Contact</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <div class="actions">
+                                <div class="action__btn">
+                                    <label>
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                        <input
+                                            hidden
+                                            id="search__checkbox"
+                                            class="search__checkbox"
+                                            type="checkbox" />
+                                        <div class="search__wrapper">
+                                            <input
+                                                class="search__input"
+                                                type="text"
+                                                placeholder="Search..." />
+                                            <a class="search__btn">
+                                                <i
+                                                    class="fa-solid fa-magnifying-glass"></i>
+                                            </a>
+                                        </div>
+                                    </label>
+                                </div>
+                                <div class="action__btn">
+                                    <a><i class="fa-solid fa-cart-shopping"></i></a>
+                                </div>
+                                <div class="menu__bar">
+                                    <label class="menubar__label"
+                                        ><i class="fa-solid fa-bars"></i>
+                                        <input
+                                            hidden
+                                            type="checkbox"
+                                            name=""
+                                            id=""
+                                    /></label>
+                                    <div class="menu__mobile">
+                                        <ul class="menu-mobile__list">
+                                            <li class="menu-mobile__item">
+                                                <div class="menu-mobile__head">
+                                                    <a class="menu-mobile__link">Home</a>
+                                                    <i
+                                                        class="menu-mobile__arrow fa-solid fa-arrow-down"></i>
+                                                </div>
+                                                <ul class="menu-mobile__sub-menu">
+                                                    <li class="menu-mobile__item">
+                                                        <a>Home Version One</a>
+                                                    </li>
+                                                    <li class="menu-mobile__item">
+                                                        <a>Home Version Two</a>
+                                                    </li>
+                                                    <li class="menu-mobile__item">
+                                                        <a>Home Version Three</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="menu-mobile__item">
+                                                <div class="menu-mobile__head">
+                                                    <a class="menu-mobile__link"
+                                                        >Courses</a
+                                                    >
+                                                    <i
+                                                        class="menu-mobile__arrow fa-solid fa-arrow-down"></i>
+                                                </div>
+                                                <ul class="menu-mobile__sub-menu">
+                                                    <li class="menu-mobile__item">
+                                                        <a>Courses Version One</a>
+                                                    </li>
+                                                    <li class="menu-mobile__item">
+                                                        <a>Courses Version Two</a>
+                                                    </li>
+                                                    <li class="menu-mobile__item">
+                                                        <a>Courses Version Three</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="menu-mobile__item">
+                                                <div class="menu-mobile__head">
+                                                    <a class="menu-mobile__link"
+                                                        >Events</a
+                                                    >
+                                                    <i
+                                                        class="menu-mobile__arrow fa-solid fa-arrow-down"></i>
+                                                </div>
+                                                <ul class="menu-mobile__sub-menu">
+                                                    <li class="menu-mobile__item">
+                                                        <a>Courses Version One</a>
+                                                    </li>
+                                                    <li class="menu-mobile__item">
+                                                        <a>Courses Version Two</a>
+                                                    </li>
+                                                    <li class="menu-mobile__item">
+                                                        <a>Courses Version Three</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="menu-mobile__item">
+                                                <div class="menu-mobile__head">
+                                                    <a class="menu-mobile__link">Pages</a>
+                                                    <i
+                                                        class="menu-mobile__arrow fa-solid fa-arrow-down"></i>
+                                                </div>
+                                                <ul class="menu-mobile__sub-menu">
+                                                    <li class="menu-mobile__item">
+                                                        <a>Courses Version One</a>
+                                                    </li>
+                                                    <li class="menu-mobile__item">
+                                                        <a>Courses Version Two</a>
+                                                    </li>
+                                                    <li class="menu-mobile__item">
+                                                        <a>Courses Version Three</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="menu-mobile__item">
+                                                <div class="menu-mobile__head">
+                                                    <a class="menu-mobile__link"
+                                                        >Portfolio</a
+                                                    >
+                                                    <i
+                                                        class="menu-mobile__arrow fa-solid fa-arrow-down"></i>
+                                                </div>
+                                                <ul class="menu-mobile__sub-menu">
+                                                    <li class="menu-mobile__item">
+                                                        <a>Courses Version One</a>
+                                                    </li>
+                                                    <li class="menu-mobile__item">
+                                                        <a>Courses Version Two</a>
+                                                    </li>
+                                                    <li class="menu-mobile__item">
+                                                        <a>Courses Version Three</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="menu-mobile__item">
+                                                <div class="menu-mobile__head">
+                                                    <a class="menu-mobile__link">Blog</a>
+                                                    <i
+                                                        class="menu-mobile__arrow fa-solid fa-arrow-down"></i>
+                                                </div>
+                                                <ul class="menu-mobile__sub-menu">
+                                                    <li class="menu-mobile__item">
+                                                        <a>Courses Version One</a>
+                                                    </li>
+                                                    <li class="menu-mobile__item">
+                                                        <a>Courses Version Two</a>
+                                                    </li>
+                                                    <li class="menu-mobile__item">
+                                                        <a>Courses Version Three</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="menu-mobile__item">
+                                                <div class="menu-mobile__head">
+                                                    <a class="menu-mobile__link">Shop</a>
+                                                    <i
+                                                        class="menu-mobile__arrow fa-solid fa-arrow-down"></i>
+                                                </div>
+                                                <ul class="menu-mobile__sub-menu">
+                                                    <li class="menu-mobile__item">
+                                                        <a>Courses Version One</a>
+                                                    </li>
+                                                    <li class="menu-mobile__item">
+                                                        <a>Courses Version Two</a>
+                                                    </li>
+                                                    <li class="menu-mobile__item">
+                                                        <a>Courses Version Three</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="menu-mobile__item">
+                                                <div class="menu-mobile__head">
+                                                    <a class="menu-mobile__link"
+                                                        >Contact</a
+                                                    >
+                                                    <i
+                                                        class="menu-mobile__arrow fa-solid fa-arrow-down"></i>
+                                                </div>
+                                                <ul class="menu-mobile__sub-menu">
+                                                    <li class="menu-mobile__item">
+                                                        <a>Courses Version One</a>
+                                                    </li>
+                                                    <li class="menu-mobile__item">
+                                                        <a>Courses Version Two</a>
+                                                    </li>
+                                                    <li class="menu-mobile__item">
+                                                        <a>Courses Version Three</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="breadcrumb">
+                            <h1 class="breadcrumb__title">SHOP</h1>
+                            <p class="breadcrumb__backward">
+                                <a class="breadcrumb__link" href="#">Home</a> /
+                                <a class="breadcrumb__link" href="#">Pages</a> /
+                                <a class="breadcrumb__link" href="#!">Courses</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main">
+                <div class="container flex">
+                    <div class="sidebar">
+                        <div class="sidebar__search-wrapper">
+                            <input
+                                type="text"
+                                class="sidebar__search-input"
+                                placeholder="Search Product" />
+                            <a class="btn--seacrh-product" href="#!">Search</a>
+                        </div>
+                        <div class="sidebar__category">
+                            <h2 class="sidebar__heading">Shop Categories</h2>
+                            <div class="sidebar__list">
+                                <a href="#!" class="sidebar__item">SMM Shop</a>
+                                <a href="#!" class="sidebar__item">Network Security</a>
+                                <a href="#!" class="sidebar__item">Programming</a>
+                                <a href="#!" class="sidebar__item">Search Engine Opt</a>
+                                <a href="#!" class="sidebar__item">Social Media</a>
+                                <a href="#!" class="sidebar__item">Technology</a>
+                                <a href="#!" class="sidebar__item">User Experience</a>
+                                <a href="#!" class="sidebar__item">Website Analytics</a>
+                            </div>
+                        </div>
+                        <div class="sidebar__category">
+                            <h2 class="sidebar__heading">Popular Product</h2>
+                            <div class="sidebar__list product">
+                                <div class="sidebar__item">
+                                    <img
+                                        src="./img/sidebar-product-01.jpg"
+                                        alt="Product Image" />
+                                    <div>
+                                        <a href="#!">Photoshop</a>
+                                        <p class="sidebar__price">$ 235</p>
+                                    </div>
+                                </div>
+                                <div class="sidebar__item">
+                                    <img
+                                        src="./img/sidebar-product-02.jpg"
+                                        alt="Product Image" />
+                                    <div>
+                                        <a href="#!">Software Developer</a>
+                                        <p class="sidebar__price">$ 35</p>
+                                    </div>
+                                </div>
+                                <div class="sidebar__item">
+                                    <img
+                                        src="./img/sidebar-product-03.jpg"
+                                        alt="Product Image" />
+                                    <div>
+                                        <a href="#!">Marketing Plan</a>
+                                        <p class="sidebar__price">$ 35</p>
+                                    </div>
+                                </div>
+                                <div class="sidebar__item">
+                                    <img
+                                        src="./img/sidebar-product-04.jpg"
+                                        alt="Product Image" />
+                                    <div>
+                                        <a href="#!">Google Expands</a>
+                                        <p class="sidebar__price">$ 234</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="content__top product">
+                            <select name="" id="">
+                                <option value="Select Filter">Select Filter</option>
+                                <option value="By Price">By Price</option>
+                                <option value="By Category">By Category</option>
+                                <option value="By Date">By Date</option>
+                            </select>
+                            <p>Showing 1-9 of 25 Result</p>
+                        </div>
+                        <div class="course__list">
+                            <div class="course__item">
+                                <div class="course__img-wrapper">
+                                    <img
+                                        src="./img/product-01.jpg"
+                                        alt=""
+                                        class="course__img" />
+                                </div>
+                                <div class="course__detail product">
+                                    <h2 class="course__title">Ten steps to making</h2>
+                                    <p class="course__price">$ 89</p>
+                                    <a class="btn btn--add_cart" href="#">ADD TO CART</a>
+                                </div>
+                            </div>
+                            <div class="course__item">
+                                <div class="course__img-wrapper">
+                                    <img
+                                        src="./img/product-02.jpg"
+                                        alt=""
+                                        class="course__img" />
+                                </div>
+                                <div class="course__detail product">
+                                    <h2 class="course__title">Long-Tail SEO Strategy</h2>
+                                    <p class="course__price">$ 19</p>
+                                    <a class="btn btn--add_cart" href="#">ADD TO CART</a>
+                                </div>
+                            </div>
+                            <div class="course__item">
+                                <div class="course__img-wrapper">
+                                    <img
+                                        src="./img/product-03.jpg"
+                                        alt=""
+                                        class="course__img" />
+                                </div>
+                                <div class="course__detail product">
+                                    <h2 class="course__title">
+                                        Create optimized content
+                                    </h2>
+                                    <p class="course__price">$ 79</p>
+                                    <a class="btn btn--add_cart" href="#">ADD TO CART</a>
+                                </div>
+                            </div>
+                            <div class="course__item">
+                                <div class="course__img-wrapper">
+                                    <img
+                                        src="./img/product-04.jpg"
+                                        alt=""
+                                        class="course__img" />
+                                </div>
+                                <div class="course__detail product">
+                                    <h2 class="course__title">Boost Your Organic</h2>
+                                    <p class="course__price">$ 9</p>
+                                    <a class="btn btn--add_cart" href="#">ADD TO CART</a>
+                                </div>
+                            </div>
+                            <div class="course__item">
+                                <div class="course__img-wrapper">
+                                    <img
+                                        src="./img/product-05.jpg"
+                                        alt=""
+                                        class="course__img" />
+                                </div>
+                                <div class="course__detail product">
+                                    <h2 class="course__title">Search Rankings</h2>
+                                    <p class="course__price">$ 47</p>
+                                    <a class="btn btn--add_cart" href="#">ADD TO CART</a>
+                                </div>
+                            </div>
+                            <div class="course__item">
+                                <div class="course__img-wrapper">
+                                    <img
+                                        src="./img/product-06.jpg"
+                                        alt=""
+                                        class="course__img" />
+                                </div>
+                                <div class="course__detail product">
+                                    <h2 class="course__title">School PPC</h2>
+                                    <p class="course__price">$ 36</p>
+                                    <a class="btn btn--add_cart" href="#">ADD TO CART</a>
+                                </div>
+                            </div>
+                            <div class="course__item">
+                                <div class="course__img-wrapper">
+                                    <img
+                                        src="./img/product-07.jpg"
+                                        alt=""
+                                        class="course__img" />
+                                </div>
+                                <div class="course__detail product">
+                                    <h2 class="course__title">Guide to SEO</h2>
+                                    <p class="course__price">$ 19</p>
+                                    <a class="btn btn--add_cart" href="#">ADD TO CART</a>
+                                </div>
+                            </div>
+                            <div class="course__item">
+                                <div class="course__img-wrapper">
+                                    <img
+                                        src="./img/product-08.jpg"
+                                        alt=""
+                                        class="course__img" />
+                                </div>
+                                <div class="course__detail product">
+                                    <h2 class="course__title">Infuencer Marketing</h2>
+                                    <p class="course__price">$ 90</p>
+                                    <a class="btn btn--add_cart" href="#">ADD TO CART</a>
+                                </div>
+                            </div>
+                            <div class="course__item">
+                                <div class="course__img-wrapper">
+                                    <img
+                                        src="./img/product-09.jpg"
+                                        alt=""
+                                        class="course__img" />
+                                </div>
+                                <div class="course__detail product">
+                                    <h2 class="course__title">PPC Agency</h2>
+                                    <p class="course__price">$ 78</p>
+                                    <a class="btn btn--add_cart" href="#">ADD TO CART</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pages__nav product">
+                            <a href="#!" class="pages__item pages__item--active">1</a>
+                            <a href="#!" class="pages__item">2</a>
+                            <a href="#!" class="pages__item">3</a>
+                            <a class="btn btn--next btn--arrow" href="#!"
+                                ><i class="fa-solid fa-arrow-right"></i
+                            ></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="container">
+                    <div class="footer__list">
+                        <div class="footer__item">
+                            <ul>
+                                <li>
+                                    <a href="#!" class="logo__btn">
+                                        <img
+                                            src="./img/logo.png"
+                                            alt="Logo"
+                                            class="logo" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <p class="footer__desc">
+                                        Scholars provides universal access to the world’s
+                                        best education, partnering with top universities
+                                        and organizations to offer courses online.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="footer__copyright">
+                                        © 2017 Scholrs Inc. All rights reserved.
+                                    </p>
+                                </li>
+                                <li class="app__market">
+                                    <a href="#!">
+                                        <img
+                                            src="./img/android.png"
+                                            alt="Android Play Store" />
+                                    </a>
+                                    <a href="#!">
+                                        <img
+                                            src="./img/apple.png"
+                                            alt="Apple App Store" />
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__item">
+                            <h2 class="footer__heading">Scholars</h2>
+                            <ul>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Leadership</a></li>
+                                <li><a href="#">Careers</a></li>
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer__item">
+                            <h2 class="footer__heading">Product</h2>
+                            <ul>
+                                <li><a href="#">Education Light</a></li>
+                                <li><a href="#">Eucation Starter</a></li>
+                                <li><a href="#">Eucation Premium</a></li>
+                                <li><a href="#">Business</a></li>
+                                <li><a href="#">Business Plus</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer__item">
+                            <h2 class="footer__heading">Support</h2>
+                            <ul>
+                                <li><a href="#">Support</a></li>
+                                <li><a href="#">Toll Free Number</a></li>
+                                <li><a href="#">Open Ticket</a></li>
+                                <li><a href="#">System Requirements</a></li>
+                                <li><a href="#">Feedback</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer__item">
+                            <h2 class="footer__heading">Subscribe Us</h2>
+                            <p class="footer__desc">
+                                Subscribe us to get all the latest news from us
+                            </p>
+                            <input
+                                class="input--subscribe__email"
+                                type="email"
+                                placeholder="Your email" />
+                            <a class="btn--secondary">Send</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
